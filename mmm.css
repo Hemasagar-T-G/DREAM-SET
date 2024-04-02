@@ -1,0 +1,689 @@
+/*CASCADING STYLE SHEET*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caesar Dressing', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*home page start*/
+.start{
+    background-image: linear-gradient(rgba(0.5, 0, 0.5, 0.5), rgba(0.5, 0, 0.5, 0)),url(about-bkg.jpg);
+    width: 90%;
+    border: 1px solid black;
+}
+.main{
+	height: 100vh;
+}
+img{
+	height: 60px;
+	float: left;
+	display: inline-block;
+	width: 400px;
+	opacity: 10;
+	padding: 0px;
+}
+
+h3{
+	color: #000;
+	font-size: 20px;
+    padding: 2px;
+	display: inline-block;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #fff;
+}
+
+nav ul{
+	float: right;
+	margin-right: 30px;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	transition: 0.8s all;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px;
+}
+nav ul li a:hover{
+	background-color: #41787aa8;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.pet h1{
+    padding: 10px;
+    text-align: center;
+    font-family: cursive;
+    color: #000000a8;
+    line-height: 50px;
+    background-color: #ffffffc2;
+    width: 900px;
+    margin-left: 225px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.foot{
+    text-align: center;
+    font-size: 20px;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+    margin-top: 73.75vh;
+}
+.obj{
+    color: #000000a8;
+    padding: 3px;
+    margin-top: 10px;
+}
+.intro{
+    background: #ffffffc2;
+    border-radius: 10px;
+    width: 900px;
+    padding: 10px;
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.intro p,h1{
+    line-height: 50px;
+}
+.intro p{
+    font-size: 20px;
+}
+.intro h1{
+    background: transparent;
+    color: #000000a8;
+}
+.foot a{
+    text-decoration: none;
+    color: #fff;
+}
+/*home page end*/
+
+/*about page start*/
+.start-1{
+    background-image: linear-gradient(rgba(0.5, 0, 0.5, 0.5), rgba(0.5, 0, 0.5, 0)),url(about-bkg.jpg);
+    width: 90%;
+    height: 130vh;
+    border: 1px solid black;
+}
+.hello-values ol{
+    list-style: outside;
+}
+.hello-values li{
+    font-size: 20px;
+    font-weight: bold;
+}
+fieldset {
+    width: 82%;
+    background: #ffffffc2;
+    color: #000000a8;
+    padding: 20px 30px 30px;
+    text-align: justify-all;
+    border: none;
+    border-radius: 20px;
+    margin-left: 6.75%;
+    line-height: 40px;
+}
+legend{
+    background: #ffffffc2;
+    border-radius: 20px;
+    font-size: 30px;
+    margin-left: 42.5%;
+}
+.hp{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+    transform: translateX(-50%);
+}
+.disk h3{
+    color: #000000a8;
+}
+.disk{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #000000a8;
+}
+.disk .box{
+    position: relative;
+    height: 410px;
+    /*background: #08306db3;*/
+    background: #ffffffc2;
+    color: #000000a8;
+    padding: 20px 40px 40px;
+    text-align: justify-all;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.disk h1{
+    margin-top: 70px;
+    color: #000000a8;
+    background: transparent;
+}
+/*about page end*/
+
+/*gallery page start*/
+.photo-gallery header{
+    font-family: 'Caesar Dressing', cursive;
+    text-align: center;
+}
+.photo-gallery p{
+    font-size:26px;
+    color: #fff;
+}
+.photo-gallery .photo-view main{
+    margin-left: 10%;
+}
+.photo-gallery .box h4{
+    color: #fff;
+}
+.photo-gallery .box{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    padding-left: 12px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.photo-gallery .box img{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+.photo-gallery .box img:hover{
+    transform: scale(2,2);
+    transition: .35 transform;
+    border-radius: 5px
+}
+/*gallery page end*/
+
+/*construction page start*/
+.content{
+    display: contents;
+}
+.content-1{
+    max-width: 90%;
+    margin-left: 5%;
+    border: 1px solid black;
+    background-image: url(con-back.jpg);
+}
+.desc{
+    border: 1px solid;
+    background-image: url(con-back.jpg);
+}
+.content h2 ,h4 ,h5{
+    color: #fff;
+}
+.more-more h1{
+    color: #000;
+    background: transparent;
+}
+.mid{
+    justify-content: center;
+    align-items: center;
+}
+.content-1{
+    height: 100vh;
+}
+.more-more{
+    width: 700px;
+    height: 95vh;
+    margin-top: 0px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    background: #ffffffc2; border-radius: 10px;
+}
+.more-more input, select{
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    color: #000;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.more-more input[type=submit],input[type=reset],input[type=button],input[type=radio]{
+    background-color: aliceblue;
+    color: #000;
+    width: 100px;
+    height: 25px;
+    font-size: 17px;
+}
+/*construction page end*/
+
+/*jewelery page start*/
+.sannidhi{
+    width: 90%;
+    height: auto;
+    display: flex;
+    background-image: url(jewel-back.jpg);
+    color: #000;
+    text-align: center;
+    border: 1px solid #000;
+}
+.sannidhi.metel-info hr{
+    width: 100%;
+    margin-left: 15%;
+}
+.gsp{
+    background-color:#64eaffd1;
+    border-radius: 10px;
+    width: 1200px;
+    margin-left: 80px;
+}
+.hohp h1{
+    background-color: #000;
+}
+.gsp td{
+    margin-left: 10%;
+    color: #000;
+}
+.gsp img{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin-left: 20%;
+}
+.hohp h5, h1{
+    color: #fff;
+}
+.hohp h1{
+    background: transparent;
+}
+
+.metel-info{
+    text-align: center;
+}
+.metel-info .hhh h3{
+    margin-left: 65px;
+}
+.jbox{
+    margin-left: 10%;
+}
+.jbox1 table{
+    align-content: center;
+    width: 800px;
+    margin-left: 5%;
+    padding: 10px;
+}
+.jbox1 td{
+    padding: 20px;
+    background-color:#64eaffd1;
+    border-radius: 20px;
+}
+.jbox1 pre{
+    line-height: 20px;
+    color: #000;
+    font-size: 15px;font-family: 'Caesar Dressing', cursive;
+}
+.jbox1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.jbox1 img{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
+.jbox1 button{
+    margin: 10px;
+    border-radius:
+}
+/*jewelery page end*/
+/*service page start*/
+.viewit a{
+    text-decoration: none;
+}
+.viewit{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: %;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+.core{
+    margin-top: 0%;
+}
+.main h2{
+    max-width: 1200px;
+    margin-top: 5%;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.viewit h3{
+    color: aliceblue;
+}
+.viewit .box{
+    position: relative;
+    background: #fff;
+    padding: 20px 40px 40px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.viewit .box:nth-child(1){
+    background: linear-gradient(45deg, #0363bf, #64eaff);
+}
+.viewit .box:nth-child(2){
+    background: linear-gradient(45deg, #E91E63, #ed55ff);
+}
+.viewit .box:nth-child(3){
+    background: linear-gradient(45deg, #086d35, #00ff72);
+}
+.viewit .box:nth-child(4){
+    background: linear-gradient(45deg, #f05a4f, #f4c030);
+}
+.viewit .box h2{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+    color: #fff;
+    z-index: 1;
+    opacity: 0.4;
+}
+.viewit .box h3{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.viewit .box p{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-size: 18px;
+}
+.box1{
+    background-color: #0000ff7a;
+     border-radius: 10px;
+}
+.box2{
+    background-color: #5f9ea07d;
+     border-radius: 10px;
+}
+.box3{
+    background-color: #ff000080;
+    border-radius: 10px;
+}
+.box4{
+    background-color: #00800080;
+     border-radius: 10px;
+}
+*.viewit img{
+    width: 287.5px;
+    height: 250px;
+    margin-left: 0%;
+}
+.box4 .box4a{
+    background-color: #00800080#00800080;
+}
+.box4 .box4b{
+    margin-top: 40px;
+    background-color: #00800080#00800080;
+}
+.opt a{
+    color: #fff;
+}
+.opt{
+    padding: 5px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 100px;
+}
+/*service page end*/
+/*tours ans travels page start*/
+.tandt{
+    background-image: url(trav3.jpg);
+    height: auto;
+    width: 90%;
+    border: 1px solid #000;
+}
+.tandt h1 ,h5{
+    text-align: center;
+    color: #000;
+}
+.pack img{
+    height: 300px;
+    width: 300px;
+}
+.pack table{
+    margin-left: 0%;
+}
+.pack td{
+    background-color: bisque;
+    border-radius: 15px;
+}
+.pack a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #000;border-radius: 5px;
+    background: green;
+    padding: 5px;
+    margin-top: 10px;
+}
+.bbc{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.bbc a{
+    color: #fff;
+    background: green;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.bbhs{
+    padding: 20px;
+    width: 1000px;margin-left: 150px;
+    background-color: #01000036;
+    text-align: center; font-size: 20px;
+    color: #fff;
+}
+.tandt1{
+    background-image: url(ggg.jpg);
+    background-color: aliceblue;
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+}
+.tandt1 h1{
+    text-align: center;
+}
+.tilt h1{
+    text-align: center;
+    color: #fff;
+}
+.inform{
+    padding: 20px;
+    width: 1000px;
+    margin-left: 150px; margin-top: 10px;
+    text-align: center;
+    background-color: darkseagreen;
+}
+.rem{
+    padding: 20px;
+    width: 1000px;
+    margin-top: 10px;margin-left: 150px;margin-bottom: 10px;
+    background-color: aliceblue;
+    display: inline-block;
+    font-size: 20px;
+}
+.reim{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+.tandt1 img{
+    align-content: center;
+    width: 250px;
+    height: 300px;
+}
+.rem ul{
+    margin-left: 10px;
+}
+.inform img{
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+}
+.toback{
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: blue;
+    text-align: center;
+    margin-left: 40%;
+}
+.tandt1 a{
+    text-decoration: none;
+    color: #fff;
+}
+/*tours ans travels page end*/
+/*stone crushers page starts*/
+.ston{
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    background-image: url(6mm-aggregate.jpeg);
+    text-align: center;
+}
+.name-head h3,h1{
+    color: #fff;
+    background: #000;
+}
+.bowl img{
+    width: 200px;
+    height: 200px;
+}
+.bowl td{
+    background-color: azure;
+    border-radius: 15px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.ston select, input, textarea{
+    width: 200px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.stone input[type=button]{
+    cursor: pointer;
+}
+button{
+    border-radius: 10px;
+}
+.bck-ser{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*stone crushers page end*/
+/*contact page start*/
+.contact-title{
+    position: absolute;
+    bottom: 75%;
+    transform: translate(-0%);
+}
+.contact-me{
+    background: #ffffffc2;
+    width: 800px; height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 26px;
+}
+.contact-me h1{
+    background: transparent;
+}
+form{
+    margin-top: 50px;
+    transform: all 4s ease-in-out;
+}
+.form-control{
+    font-family: 'Caesar Dressing', cursive;
+    width: 600px;
+    background: transparent;
+    border-radius: 10px;
+    border-bottom: 1px solid gray;
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.contact-form h1,h3{
+    color: gray;
+}
+input{
+    height: 30px;
+    color: gray;
+    font-size: 20px;
+}
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 5px;
+}
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+.back-to{
+    height: 50px;
+    width: 600px;
+    margin-left: 12.5%;
+    background: #ff5722;
+    border-radius: 10px;
+}
+.contact-form a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
